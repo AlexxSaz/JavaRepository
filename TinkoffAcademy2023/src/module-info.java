@@ -1,0 +1,2 @@
+module TinkoffAcademy2023 {
+}
