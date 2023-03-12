@@ -1,9 +1,11 @@
 package com.dmdevLessons.repository;
 
 import com.dmdevLessons.entity.CompanyEntity;
-import org.springframework.data.repository.Repository;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
-public interface CompanyRepository extends Repository<CompanyEntity, Integer> {
+@Repository
+public interface CompanyRepository extends JpaRepository<CompanyEntity, Integer> {
 
 
 }

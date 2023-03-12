@@ -24,6 +24,8 @@ public class EmployeeEntity {
 
     private  String lastName;
 
+    private Integer salary;
+
     //название по конвенции преобразуется к birth_day и другие поля тоже
     private LocalDate birthDay;
     @ManyToOne
